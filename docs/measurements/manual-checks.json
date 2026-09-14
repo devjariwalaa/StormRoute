@@ -1,0 +1,54 @@
+{
+  "measuredAt": "2026-09-14T00:21:53.177Z",
+  "results": [
+    {
+      "name": "Ann Arbor → Chicago",
+      "status": 200,
+      "passed": true,
+      "routes": 2
+    },
+    {
+      "name": "Detroit → Cleveland",
+      "status": 200,
+      "passed": true,
+      "routes": 1
+    },
+    {
+      "name": "Chicago → Indianapolis",
+      "status": 200,
+      "passed": true,
+      "routes": 1
+    },
+    {
+      "name": "Short route",
+      "status": 200,
+      "passed": true,
+      "routes": 2
+    },
+    {
+      "name": "Invalid city",
+      "status": 400,
+      "passed": true,
+      "error": "No city found for “Qzxvnonexistentcity, MI”. Try a city and full state or country name."
+    },
+    {
+      "name": "Same origin/destination",
+      "status": 400,
+      "passed": true,
+      "error": "Choose different origin and destination cities."
+    },
+    {
+      "name": "Outside forecast",
+      "status": 400,
+      "passed": true,
+      "error": "Choose a departure from now through the next six days."
+    }
+  ],
+  "health": {
+    "status": "ok",
+    "service": "StormRoute",
+    "version": "1.0.0",
+    "timestamp": "2026-09-14T00:21:53.176Z",
+    "scope": "Application liveness; upstream availability is checked during analysis."
+  }
+}

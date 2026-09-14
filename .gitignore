@@ -1,0 +1,14 @@
+node_modules/
+.next/
+.env*
+!.env.example
+coverage/
+*.tsbuildinfo
+.vercel/
+
+.npm-cache/
+
+.vercel-auth/
+work/
+
+docs/measurements/latest-analysis.json

@@ -1,0 +1,35 @@
+{
+  "verifiedAt": "2026-09-14T00:23:55.221Z",
+  "tests": 82,
+  "testFiles": 3,
+  "domainLineCoverage": {
+    "covered": 329,
+    "total": 334,
+    "percent": 98.5
+  },
+  "branchCoveragePercent": 94.02,
+  "domainFiles": [
+    "analyze.ts",
+    "budget.ts",
+    "cache.ts",
+    "format.ts",
+    "geometry.ts",
+    "optimization.ts",
+    "providers.ts",
+    "risk-config.ts",
+    "risk.ts",
+    "types.ts",
+    "validation.ts",
+    "weather.ts"
+  ],
+  "lint": "passed",
+  "productionBuild": "passed",
+  "httpScenarios": 7,
+  "browserChecks": [
+    "responsive mobile form: no document overflow",
+    "real Ann Arbor–Chicago dashboard",
+    "departure switching updates risk and ETA timeline",
+    "no captured browser console errors"
+  ],
+  "deployment": "blocked before upload by automatic approval review; explicit Vercel source-upload approval required"
+}

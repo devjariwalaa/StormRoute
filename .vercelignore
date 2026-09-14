@@ -1,0 +1,6 @@
+.npm-cache
+.vercel-auth
+work
+coverage
+.git
+docs/measurements/latest-analysis.json

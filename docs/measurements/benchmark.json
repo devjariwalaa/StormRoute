@@ -1,0 +1,95 @@
+{
+  "measuredAt": "2026-09-14T00:21:45.219Z",
+  "departure": "2026-09-15T00:00:00.000Z",
+  "method": "Real upstream calls; each route clears application caches, then runs once cold and once warm in one process. Not a load test or statistical benchmark.",
+  "results": [
+    {
+      "route": "Ann Arbor, MI → Chicago, IL",
+      "miles": 240,
+      "samples": 23,
+      "primarySamples": 11,
+      "coldMs": 2994.02,
+      "warmMs": 2.73,
+      "latencyReductionPercent": 99.91,
+      "warmCacheHits": 5,
+      "coldWeatherRequests": 2,
+      "warmWeatherRequests": 0,
+      "departureWindows": 6,
+      "routes": 2,
+      "stages": {
+        "geocoding": 542.03,
+        "routing": 647.86,
+        "sampling": 2.21,
+        "weather": 1779.74,
+        "risk": 1.45,
+        "optimization": 5.26
+      }
+    },
+    {
+      "route": "Detroit, MI → Cleveland, OH",
+      "miles": 170,
+      "samples": 8,
+      "primarySamples": 8,
+      "coldMs": 1475.09,
+      "warmMs": 1.39,
+      "latencyReductionPercent": 99.91,
+      "warmCacheHits": 4,
+      "coldWeatherRequests": 1,
+      "warmWeatherRequests": 0,
+      "departureWindows": 6,
+      "routes": 1,
+      "stages": {
+        "geocoding": 134.41,
+        "routing": 279.23,
+        "sampling": 0.66,
+        "weather": 1058.88,
+        "risk": 0.39,
+        "optimization": 1.07
+      }
+    },
+    {
+      "route": "Chicago, IL → Indianapolis, IN",
+      "miles": 180,
+      "samples": 9,
+      "primarySamples": 9,
+      "coldMs": 1492.88,
+      "warmMs": 1.33,
+      "latencyReductionPercent": 99.91,
+      "warmCacheHits": 4,
+      "coldWeatherRequests": 1,
+      "warmWeatherRequests": 0,
+      "departureWindows": 6,
+      "routes": 1,
+      "stages": {
+        "geocoding": 129.95,
+        "routing": 266.33,
+        "sampling": 1.4,
+        "weather": 1093.67,
+        "risk": 0.23,
+        "optimization": 0.95
+      }
+    },
+    {
+      "route": "Ann Arbor, MI → Columbus, OH",
+      "miles": 193,
+      "samples": 18,
+      "primarySamples": 9,
+      "coldMs": 2874.78,
+      "warmMs": 2.66,
+      "latencyReductionPercent": 99.91,
+      "warmCacheHits": 5,
+      "coldWeatherRequests": 2,
+      "warmWeatherRequests": 0,
+      "departureWindows": 6,
+      "routes": 2,
+      "stages": {
+        "geocoding": 125.98,
+        "routing": 391.97,
+        "sampling": 2.08,
+        "weather": 2350.8,
+        "risk": 0.57,
+        "optimization": 3.03
+      }
+    }
+  ]
+}
